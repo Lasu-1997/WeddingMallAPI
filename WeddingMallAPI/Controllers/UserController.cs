@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WeddingMallAPI.Repository;
-using WeddingMallWebApp.Models;
+using WeddingMallAPI.Models;
 
 namespace WeddingMallAPI.Controllers
 {

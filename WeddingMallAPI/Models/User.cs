@@ -1,4 +1,4 @@
-﻿namespace WeddingMallWebApp.Models
+﻿namespace WeddingMallAPI.Models
 {
     public class User
     {
