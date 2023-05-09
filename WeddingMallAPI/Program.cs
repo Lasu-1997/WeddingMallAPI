@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using WeddingMallAPI.Repository;
-using WeddingMallWebApp.Models;
+using WeddingMallAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +13,7 @@ builder.Services.AddDbContext<WeddingDBContext>(options =>
 });
 
 builder.Services.AddScoped<IUserRepository,UserRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
