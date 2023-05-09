@@ -1,7 +1,7 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using System;
-using WeddingMallWebApp.Models;
+using WeddingMallAPI.Models;
 
 namespace WeddingMallAPI.Repository
 {
