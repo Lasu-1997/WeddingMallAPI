@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WeddingMallAPI.Models;
 
-namespace WeddingMallWebApp.Models
+namespace WeddingMallAPI.Models
 {
     public class WeddingDBContext : DbContext
     {
@@ -9,6 +10,7 @@ namespace WeddingMallWebApp.Models
         }
 
         public DbSet<User> User { get; set; } = null;
-      
+        public DbSet<Category> Category { get; set; } = null;
+
     }
 }
