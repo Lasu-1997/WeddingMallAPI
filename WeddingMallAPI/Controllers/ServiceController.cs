@@ -46,6 +46,7 @@ namespace WeddingMallAPI.Controllers
 
         }
         [HttpPost]
+        [Route("Add")]
         public async Task<ActionResult<Service>> Add(Service service)
         {
             try
